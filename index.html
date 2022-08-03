@@ -33,7 +33,7 @@
      <div id="suratin" onClick="memulai();">
        <!-- Tombol Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
      </div>
-     <p id="ket">di Klik dulu suratnya !</p>
+     <p id="ket">di Klik dulu suratnya .... !</p>
 
      <div class="kumpulanstiker">
          <!-- Stiker untuk Konten -->
@@ -93,6 +93,7 @@
            title: 'Masukin nama kamu', input: 'text',
        });
        if(nama && nama.length < 11){
+        alert('1');
            window.nama = nama;namakamu.innerHTML=nama;namakamu2.innerHTML=nama;namakamu3.innerHTML=nama;
            kalimat.innerHTML+= nama + "! ❤️";
            kal1 = kalimat.innerHTML;kalimat.innerHTML="";
